@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Psycology Response Time Survey</title>
+    
+    <!-- CSS Linker -->
+    <link rel = "stylesheet" href = "index.css">
+
+    <!-- JavaScrip Linker -->
+    <script src = "index.js"></script>
+</head>
+<div class = "container-fluid">
+    <div id = "index_title">
+        <h1 id="web_header">UCI Psycology Response Time Survey</h1>
+    </div>
+
+    <div class = "row">
+        <!-- Cue Section -->
+        <div class = "col-md-6" id = "cue_section">
+            <!-- Where the circle is -->
+            <div id = "cue"></div>  
+            
+            <!-- The Interaction button -->
+            <div id = "user_interaction">
+                <button id = "start_button" onclick="start_trail()">Start</button>
+                <!-- <button id = "interaction_button" onclick="user_interact()" hidden=true>Click Here</button> -->
+                <p id = "test_over_sign" hidden = true>TEST OVER</p>
+            </div>
+        </div>
+
+        <!-- Record Section -->
+        <div class = "col-md-6" id = "record_section">
+            <h1 id = "record_title">Record</h1>
+            <ul id = "record_list"></ul>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+</html>

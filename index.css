@@ -1,0 +1,87 @@
+html,body,.container-fluid
+{
+    height: 100%;
+    background-color: aqua;
+}
+
+.row
+{
+    height: 100%;
+    clear: both;
+}
+
+
+#index_title
+{
+    height: 7%;
+    width: 100%;
+    text-align: center;
+    font: 20; 
+    background-color: aquamarine;
+}
+
+#cue_section
+{
+    height: 100%;
+    width: 40%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#cue
+{
+    background-color: red;
+    height: 70%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    border-radius: 30px;
+}
+
+#user_interaction
+{
+    height: 20%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#start_button
+{
+    height: 100%;
+    width: 100%;
+    margin-top: 3px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+
+#interaction_button
+{
+    height: 100%;
+    width: 100%;
+    margin-top: 3px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#interaction_button,#start_button:hover
+{
+    background-color: beige;
+}
+
+#record_title
+{
+    text-align: center;
+}
+
+#test_over_sign
+{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
